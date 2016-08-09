@@ -37,6 +37,6 @@ jspm_packages
 .node_repl_history
 
 # Keys
-keys/*.sec
-keys/*.pub
-keys/*.pem
+keys/admin.sec
+keys/admin.pub
+keys/admin.pem
