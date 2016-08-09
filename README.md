@@ -7,10 +7,8 @@
 
 ## Талаблар
  * Node.js платформаси
- * GnuPG (GNU Pretty Good Privacy) дастурий таъминоти
+ * GnuPG (GNU Privacy Guard) дастурий таъминоти
  * MongoDB маълумотлар базаси
- * Zurb Foundation 4 CSS фреймворки
- * JQuery Javascript кутубхонаси
 
 ## Ўрнатиш тартиби
 ```
