@@ -2,12 +2,13 @@
   "name": "kengash",
   "version": "1.0.0",
   "description": "Рақамли имзога асосланган электрон ҳужжат айланмаси",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,26 @@
   },
   "homepage": "https://github.com/muminoff/kengash#readme",
   "dependencies": {
-    "koa": "^1.2.1"
+    "bluebird": "^3.4.0",
+    "koa": "^2.0.0-alpha.3",
+    "koa-adapter": "0.0.3",
+    "koa-adapter-bluebird": "0.0.1",
+    "koa-bodyparser": "^2.2.0",
+    "koa-compress": "^1.0.9",
+    "koa-conditional-get": "^1.0.3",
+    "koa-ejs": "^3.0.0",
+    "koa-etag": "^2.1.1",
+    "koa-favicon": "^1.2.1",
+    "koa-helmet": "^1.0.0",
+    "koa-morgan": "^1.0.1",
+    "koa-response-time": "^1.0.2",
+    "koa-router": "^7.0.1",
+    "koa-session": "^3.3.1",
+    "koa-static": "^2.0.0",
+    "marko": "^3.4.7",
+    "pem": "^1.8.3",
+    "socket.io": "^1.4.6",
+    "socketio-sticky-session": "^0.4.2",
+    "spdy": "^3.3.3"
   }
 }
