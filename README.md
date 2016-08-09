@@ -15,7 +15,6 @@
  $ git clone https://github.com/muminoff/kengash
  $ cd kengash
  $ npm install
- $ bower install
 ```
 
 ## Ишга тушириш тартиби
@@ -28,20 +27,17 @@ MongoDB маълумотлар баъзасида фойдаланувчи яр�
      { role: "root", db: "kengash" } | "admin"
    ]
  }
- $ gulp build
- ...
- $ gulp serve
- ...
+ $ npm start
 ```
 
 Тизим маъмури учун калит яратиш
 ```
- $ gpg --gen-key --batch gen-key-script
+ $ ./create_key.sh
 ```
 
 Яратилган калитдан бармоқ изи олиш
 ```
- $ gpg --no-default-keyring --secret-keyring ./admin.sec --keyring ./admin.pub --list-secret-keys |grep Key
+ $ ./get_fingerprint.sh
 ```
 
 ## Тизимнинг ишлаш схемаси
