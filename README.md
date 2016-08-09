@@ -21,12 +21,10 @@
 MongoDB маълумотлар баъзасида фойдаланувчи яратиш
 ```
  $ mongo
- { user: "admin",
- pwd: "admin",
-   roles: [
-     { role: "root", db: "kengash" } | "admin"
-   ]
- }
+ use admin
+ db.createUser({ user: "admin", pwd: "admin", roles: ["userAdminAnyDatabase",
+ "dbAdminAnyDatabase", "readWriteAnyDatabase"]});
+
  $ npm start
 ```
 
