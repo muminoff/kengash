@@ -22,8 +22,7 @@ MongoDB маълумотлар баъзасида фойдаланувчи яр�
 ```
  $ mongo
  use admin
- db.createUser({ user: "admin", pwd: "admin", roles: ["userAdminAnyDatabase",
- "dbAdminAnyDatabase", "readWriteAnyDatabase"]});
+ db.createUser({ user: "admin", pwd: "admin", roles: ["userAdminAnyDatabase", "dbAdminAnyDatabase", "readWriteAnyDatabase"]});
 
  $ npm start
 ```
