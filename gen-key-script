@@ -1,0 +1,10 @@
+%echo Тизим маъмури учун калит яратилмоқда...
+Key-Type: 1
+Key-Length: 4096
+Name-Real: admin
+Name-Email: admin@localhost
+%pubring admin.pub
+%secring admin.sec
+Expire-Date: 0
+%commit
+%echo Яратилди.
