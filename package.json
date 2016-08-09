@@ -1,0 +1,25 @@
+{
+  "name": "kengash",
+  "version": "1.0.0",
+  "description": "Рақамли имзога асосланган электрон ҳужжат айланмаси",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muminoff/kengash.git"
+  },
+  "author": "Sardor Muminov <smuminov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muminoff/kengash/issues"
+  },
+  "homepage": "https://github.com/muminoff/kengash#readme",
+  "dependencies": {
+    "koa": "^1.2.1"
+  }
+}
